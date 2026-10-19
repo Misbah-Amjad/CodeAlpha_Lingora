@@ -1,150 +1,115 @@
+\# 🌐 Lingora — Speak a New World
+
+### Interactive Language Learning Mobile Application
+
+**Lingora** is a Flutter-based language learning application developed as part of my **CodeAlpha Mobile App Development Internship**. It combines interactive lessons, vocabulary practice, flashcards, quizzes, and learning progress tracking in a modern, engaging interface.
+
 <div align="center">
 
-# 🌐 Lingora — Speak a new world.
-### *Interactive Language Learning Mobile Application*
-
-[![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter&logoColor=white)](https://flutter.dev)
-[![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?logo=dart&logoColor=white)](https://dart.dev)
+[![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter&logoColor=white)](https://flutter.dev/)
+[![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?logo=dart&logoColor=white)](https://dart.dev/)
 [![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS%20%7C%20Web-4CAF50)](#)
-[![CodeAlpha](https://img.shields.io/badge/CodeAlpha-Internship%20Task-FF4B3E)](https://www.codealpha.tech/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Internship](https://img.shields.io/badge/CodeAlpha-Internship%20Project-FF4B3E)](https://www.codealpha.tech/)
 
-*Developed for the **CodeAlpha Mobile Development Internship** submission and developer portfolio.*
+**Speak. Practice. Progress.**
 
----
+*Built with Flutter and Dart | CodeAlpha Internship — October 2026*
 
 </div>
 
+---
+
 ## 📖 Project Overview
 
-**Lingora** is a feature-rich, beautifully designed language learning application crafted with **Flutter** and **Dart**. The app empowers users to master new languages through structured daily lessons, interactive flashcards with native audio pronunciation, categorized vocabulary explorers, gamified quizzes, learning analytics, and customizable learner profiles.
+Lingora is designed to make language learning more accessible, interactive, and enjoyable. It helps learners explore new languages, build vocabulary, practice pronunciation, complete lessons, and monitor their learning progress.
 
-Designed with a distinct, refreshing visual identity, Lingora features a custom color system, modern typography, responsive multi-device layouts (Mobile & Tablet/Desktop), and local persistence that works 100% offline.
+The application features a distinctive **Electric Coral and Indigo** design system, light and dark themes, reusable Flutter components, and offline-first local data persistence.
 
----
+This project demonstrates my practical experience in Flutter UI development, Dart programming, state management, local storage, interactive learning experiences, and responsive application design.
 
 ## ✨ Key Features
 
-### 1. 🌍 Multi-Language Curriculum
-- Learn **Spanish 🇪🇸**, **French 🇫🇷**, **German 🇩🇪**, **Japanese 🇯🇵**, and **Italian 🇮🇹**.
-- Switch target languages on the fly; curriculum and vocabulary dynamically adapt.
-- Curated categories: **Vocabulary**, **Grammar & Sentence Patterns**, **Daily Phrases**, **Travel**, **Food & Dining**, **Business**, and **Culture**.
+### 🌍 1. Multi-Language Learning
 
-### 2. 📚 Interactive Daily Lessons
-- Step-by-step modular lessons ranging from beginner greetings to conversational mastery.
-- Real-time text-to-speech (**TTS**) audio pronunciation so learners can hear authentic native intonation.
-- Instant bookmarking of unfamiliar words to a dedicated Saved Vocabulary library.
+- Learn Spanish 🇪🇸, French 🇫🇷, German 🇩🇪, Japanese 🇯🇵, and Italian 🇮🇹.
+- Switch between target languages.
+- Explore categorized content, including vocabulary, grammar, daily phrases, travel, food, business, and culture.
 
-### 3. 🃏 Tactile Flashcard Practice
-- Swipeable/flippable flashcards showing target language terms, phonetic pronunciation, translations, and contextual example sentences.
-- Mark cards as "Mastered" or "Review Needed" with real-time progress calculations.
-- Filter flashcards by specific category or study all items simultaneously.
+### 📚 2. Interactive Lessons
 
-### 4. 🎯 Progress Quizzes & Gamification
-- Multiple-choice testing engine evaluating comprehension, translations, and grammatical structures.
-- Instant feedback with animated explanations for correct and incorrect answers.
-- XP (Experience Points), Streak tracking, level milestones (*Beginner → Active Explorer → Fluent Apprentice → Polyglot Master*), and celebratory confetti upon quiz completion.
+- Follow structured lessons from beginner vocabulary to conversational practice.
+- Listen to word pronunciations using text-to-speech (TTS).
+- Save useful vocabulary for later revision.
 
-### 5. 👤 Personalized Learner Profile
-- Accessible directly from the navigation drawer.
-- Customizable profile including **Name**, **Age**, **Gender**, **Avatar**, **Learning Goal**, **Bio**, and **Interest tags** (*Travel, Tech, Anime, Cuisine, Literature, etc.*).
-- Fully persisted offline via `SharedPreferences`.
+### 🃏 3. Flashcard Practice
 
-### 6. 🎨 Dual Theme System (Light & Dark)
-- **Light Theme (Default):** Crisp Ice & Slate (`#F8FAFC`) surfaces with Electric Coral (`#FF4B3E`) and Iris Indigo (`#4F46E5`) brand accents.
-- **Dark Theme:** Deep Cosmic Navy (`#0A0E1A`) glass surfaces with elevated contrast and reduced eye strain.
-- Quick one-tap toggle switch located in the app drawer.
+- Review words, translations, pronunciation guides, and example sentences.
+- Mark vocabulary as mastered or needing revision.
+- Practice vocabulary by category or across the available collection.
 
-### 7. 🚀 Native Launch & Custom Splash Screen
-- **Native Android 12+ / iOS Launch Screen:** Displays the high-resolution Lingora emblem centered on a branded `#F8FAFC` background.
-- **Custom Flutter Splash Screen:** Features the vibrant Lingora emblem, twinkling star animations, tagline, and custom-drawn vector silhouettes of global landmarks (Eiffel Tower, Pagoda, Taj Mahal, Big Ben, and Colosseum).
-- Zero-blur rendering architecture with isolated repaint boundaries and smooth cross-fade navigation.
+### 🎯 4. Quizzes and Gamification
 
-### 8. ☁️ Offline-First & Data Sync Ready
-- Complete offline functionality utilizing `SharedPreferences` for local progress, profiles, and bookmarks.
-- Built-in data sync screen prepared for cloud backup and restoration (e.g., Firebase).
+- Test language comprehension through multiple-choice quizzes.
+- Receive feedback on answers.
+- Track experience points (XP), streaks, levels, and learning milestones.
+- Enjoy celebratory animations after quiz completion.
 
----
+### 👤 5. Personalized Learner Profile
 
-## 🎨 Design System & Color Palette
+- Customize your name, age, gender, avatar, biography, learning goals, and interests.
+- Save profile information locally using SharedPreferences.
+- Access profile information through the app navigation.
 
-Lingora uses an original, vibrant design system that stands out with modern contrast and energetic tones:
+### 🎨 6. Light and Dark Themes
 
-| Token | Hex Code | Visual Swatch | Usage |
-|:---|:---:|:---:|:---|
-| **Primary (Electric Coral)** | `#FF4B3E` | 🔴 | Primary buttons, active tabs, streak counters |
-| **Secondary (Electric Indigo)** | `#4F46E5` | 🟣 | Badges, level indicators, secondary accents |
-| **Accent Gold (Radiant Amber)** | `#F59E0B` | 🟡 | XP badges, star ratings, milestones |
-| **Success Emerald** | `#10B981` | 🟢 | Correct answers, mastery indicators |
-| **Light Background** | `#F8FAFC` | ⚪ | Default crisp app background & splash screen |
-| **Light Surface** | `#FFFFFF` | ⬜ | Card surfaces, modals, elevated sheets |
-| **Dark Background** | `#0A0E1A` | ⚫ | Cosmic navy dark mode background |
-| **Dark Surface** | `#131B2E` | ⬛ | Elevated dark mode cards |
+- **Light mode:** clean surfaces with Electric Coral and Indigo accents.
+- **Dark mode:** a deep navy interface designed for comfortable viewing.
+- Switch themes from the app navigation.
 
----
+### 📊 7. Learning Analytics
 
-## 🏗️ Project Architecture & Directory Structure
+- View learning progress, XP, streaks, and level information.
+- Monitor progress toward learning goals.
+- Use progress information to support consistent study habits.
 
-```text
-lib/
-├── data/
-│   └── language_data.dart        # Complete curriculum, vocabulary & quiz banks
-├── models/
-│   ├── category.dart             # Category enum & metadata
-│   ├── language.dart             # Supported languages & flag assets
-│   ├── lesson.dart               # Structured lesson models
-│   ├── quiz_question.dart        # Quiz questions, options & answer logic
-│   ├── user_profile.dart         # User profile data class with JSON serialization
-│   ├── user_progress.dart        # XP, streaks, levels & completion tracking
-│   └── vocab_item.dart           # Vocabulary term data class with audio keys
-├── screens/
-│   ├── bookmarks_screen.dart     # Saved words library with audio playback
-│   ├── flashcards_screen.dart    # Flippable flashcard practice screen
-│   ├── home_screen.dart          # Dashboard with daily goals, streaks & shortcuts
-│   ├── lessons_screen.dart       # Interactive lesson walkthrough
-│   ├── main_navigation_screen.dart # Responsive drawer & tab navigation
-│   ├── profile_screen.dart       # User profile viewer and editor
-│   ├── progress_screen.dart      # XP analytics, level tiers & learning stats
-│   ├── quiz_screen.dart          # Gamified quiz engine with confetti
-│   ├── settings_sync_screen.dart # Data backup, language selection & reset
-│   ├── splash_screen.dart        # Zero-blur animated splash screen
-│   └── vocabulary_screen.dart    # Categorized vocabulary explorer
-├── services/
-│   ├── audio_service.dart        # Text-To-Speech (TTS) integration
-│   ├── learning_state.dart       # Core ChangeNotifier state management
-│   ├── storage_service.dart      # SharedPreferences persistence layer
-│   └── theme_service.dart        # Light / Dark theme mode controller
-├── theme/
-│   ├── app_colors.dart           # Brand palette, tokens & gradients
-│   ├── app_theme.dart            # ThemeData definitions for Material 3
-│   └── app_typography.dart       # Typography styles (GoogleFonts Plus Jakarta Sans)
-├── widgets/
-│   ├── app_header.dart           # Reusable branded app headers
-│   ├── custom_card.dart          # Styled container cards
-│   ├── progress_streak_header.dart # Global streak & XP status bar
-│   └── tactile_button.dart       # Bouncy, tactile interactive button widget
-└── main.dart                     # Application root with splash cross-fade
-```
+### 🚀 8. Custom Launch and Splash Screens
+
+- Branded application launch and splash screens.
+- Custom Lingora emblem and animated visual elements.
+- Language-inspired landmark illustrations and smooth transitions.
+
+### 💾 9. Offline-First Local Storage
+
+- Persist supported profile, progress, theme, and vocabulary data locally.
+- Continue using core learning features without requiring a cloud connection.
+- Includes a sync/settings screen designed to support future cloud backup and restoration integration.
 
 ---
 
-## 🛠️ Tech Stack & Dependencies
+## 🎨 Design System
 
-| Dependency | Version | Purpose |
-|:---|:---:|:---|
-| **Flutter SDK** | `^3.10.0+` | Core UI framework |
-| **shared_preferences** | `^2.5.5` | Fast, persistent key-value storage for offline learning state |
-| **flutter_tts** | `^4.2.5` | Native Text-To-Speech engine for authentic pronunciation |
-| **google_fonts** | `^8.2.1` | Modern Plus Jakarta Sans typography |
-| **confetti** | `^0.8.0` | Celebration particle animations upon quiz completion |
-| **intl** | `^0.20.3` | Internationalization and date formatting |
-| **uuid** | `^4.6.0` | Unique ID generation for state items |
+Lingora uses a custom color palette to create a recognizable, modern learning experience.
+
+| Design Token | Hex Code | Purpose |
+|---|---|---|
+| Electric Coral | `#FF4B3E` | Primary buttons and active states |
+| Coral Light | `#FF7266` | Highlights and interactive accents |
+| Coral Dark | `#E02B1D` | Strong emphasis |
+| Electric Indigo | `#4F46E5` | Secondary actions and indicators |
+| Indigo Light | `#6366F1` | Secondary highlights |
+| Radiant Amber | `#F59E0B` | XP, achievements, and milestones |
+| Success Emerald | `#10B981` | Correct answers and mastery |
+| Light Background | `#F8FAFC` | Light theme surfaces |
+| Dark Background | `#0A0E1A` | Dark theme background |
+| Dark Surface | `#131B2E` | Elevated dark theme cards |
+
+The interface uses reusable widgets, consistent spacing, custom typography, and Material Design components to maintain a cohesive user experience.
 
 ---
 
 ## 📱 App Screenshots
 
-Take a look at **Lingora**, a modern Flutter language-learning app designed to make vocabulary building, lessons, and interactive practice more engaging.
+Explore Lingora's interface, including the launch experience, vocabulary tools, flashcards, lessons, quizzes, and learner profile.
 
 ### 🚀 Launch & Getting Started
 
@@ -160,9 +125,9 @@ Take a look at **Lingora**, a modern Flutter language-learning app designed to m
 
 ### 📚 Vocabulary & Learning
 
-| Vocab Screen | Add Vocab Screen | Saved Vocab |
+| Vocabulary Screen | Add Vocabulary | Saved Vocabulary |
 |---|---|---|
-| ![Vocab Screen](screenshots/vocab%20screen.jpeg) | ![Add Vocab Screen](screenshots/Add%20vocab%20sreen.jpeg) | ![Saved Vocab Screen](screenshots/saved%20vocab%20screen.jpeg) |
+| ![Vocabulary Screen](screenshots/vocab%20screen.jpeg) | ![Add Vocabulary Screen](screenshots/Add%20vocab%20sreen.jpeg) | ![Saved Vocabulary Screen](screenshots/saved%20vocab%20screen.jpeg) |
 
 ### 🃏 Flashcards & Lessons
 
@@ -178,70 +143,170 @@ Take a look at **Lingora**, a modern Flutter language-learning app designed to m
 
 ---
 
-*Lingora — Learn new words, build confidence, and make every lesson count.*
+## 🛠️ Technology Stack
 
-## 🚀 Getting Started & Installation
+| Technology / Package | Purpose |
+|---|---|
+| **Flutter** | Cross-platform application UI |
+| **Dart** | Application programming language |
+| **Material Design 3** | UI components and theming |
+| **Provider-style ChangeNotifier state management** | Managing learning and application state |
+| **SharedPreferences** | Local persistence for supported application data |
+| **flutter_tts** | Text-to-speech pronunciation |
+| **google_fonts** | Custom typography |
+| **confetti** | Quiz completion animations |
+| **intl** | Date formatting and internationalization utilities |
+| **uuid** | Unique identifier generation |
+
+---
+
+## 🏗️ Project Architecture
+
+The project follows a feature-oriented structure that separates data, models, screens, services, themes, and reusable widgets.
+
+```text
+lib/
+├── data/
+│   └── language_data.dart
+├── models/
+│   ├── category.dart
+│   ├── language.dart
+│   ├── lesson.dart
+│   ├── quiz_question.dart
+│   ├── user_profile.dart
+│   ├── user_progress.dart
+│   └── vocab_item.dart
+├── screens/
+│   ├── bookmarks_screen.dart
+│   ├── flashcards_screen.dart
+│   ├── home_screen.dart
+│   ├── lessons_screen.dart
+│   ├── main_navigation_screen.dart
+│   ├── profile_screen.dart
+│   ├── progress_screen.dart
+│   ├── quiz_screen.dart
+│   ├── settings_sync_screen.dart
+│   ├── splash_screen.dart
+│   └── vocabulary_screen.dart
+├── services/
+│   ├── audio_service.dart
+│   ├── learning_state.dart
+│   ├── storage_service.dart
+│   └── theme_service.dart
+├── theme/
+│   ├── app_colors.dart
+│   ├── app_theme.dart
+│   └── app_typography.dart
+├── widgets/
+│   ├── app_header.dart
+│   ├── custom_card.dart
+│   ├── progress_streak_header.dart
+│   └── tactile_button.dart
+└── main.dart
+```
+
+*Note: This tree highlights the main application files; it may not list every file in the repository.*
+
+---
+
+## 🚀 Getting Started
 
 ### Prerequisites
-- [Flutter SDK](https://docs.flutter.dev/get-started/install) (version 3.10 or higher)
-- [Android Studio](https://developer.android.com/studio) / [VS Code](https://code.visualstudio.com/) with Flutter extensions
-- Connected Android/iOS physical device or emulator
 
-### Setup Steps
+- [Flutter SDK](https://docs.flutter.dev/get-started/install)
+- Dart SDK compatible with your installed Flutter version
+- [Visual Studio Code](https://code.visualstudio.com/) with the Flutter and Dart extensions, or another supported Flutter IDE
+- An Android emulator or connected device for running the application
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/your-username/codealpha_language_learning_app.git
-   cd codealpha_language_learning_app
-   ```
+### 1. Clone the Repository
 
-2. **Install project dependencies:**
-   ```bash
-   flutter pub get
-   ```
+```bash
+git clone https://github.com/Misbah-Amjad/CodeAlpha_Lingora.git
+cd CodeAlpha_Lingora
+```
 
-3. **Verify project code health:**
-   ```bash
-   flutter analyze
-   flutter test
-   ```
+### 2. Install Dependencies
 
-4. **Run on your connected device:**
-   ```bash
-   flutter run
-   ```
+```bash
+flutter pub get
+```
 
-To build a release APK:
+### 3. Check the Project
+
+```bash
+flutter analyze
+flutter test
+```
+
+### 4. Run the Application
+
+```bash
+flutter run
+```
+
+### 5. Build a Release APK
+
 ```bash
 flutter build apk --release
 ```
-The APK will be generated at `build/app/outputs/flutter-apk/app-release.apk`.
+
+When the build succeeds, the APK is normally generated at:
+
+```text
+build/app/outputs/flutter-apk/app-release.apk
+```
 
 ---
 
-## 🧪 Testing & Code Quality
+## 🧪 Testing and Code Quality
 
-Lingora maintains clean, warning-free code adhering to official Flutter linting standards (`flutter_lints`).
+Run Flutter's static analysis and automated tests before submitting changes:
 
-- Run static analysis:
-  ```bash
-  flutter analyze
-  ```
-  *Result: `No issues found!`*
+```bash
+flutter analyze
+flutter test
+```
 
-- Run automated test suite:
-  ```bash
-  flutter test
-  ```
-  *Result: `All tests passed!` (Curriculum integrity, XP calculation, model serialization, and widget smoke tests).*
+Review the command output to confirm the current analysis and test results. Test coverage depends on the tests implemented in the project.
 
 ---
 
-## 👤 Author & Acknowledgments
+## 🎓 Internship Project
 
-- **Developer:** [Your Name / Portfolio Link]
-- **Internship Program:** [CodeAlpha](https://www.codealpha.tech/)
-- **Task:** Language Learning Mobile App
-- **Submission Date:** October 2026
+**Program:** CodeAlpha Mobile App Development Internship  
+**Project:** Lingora — Language Learning Mobile Application  
+**Project Type:** Flutter Application Development  
+**Development Period:** October 2026  
+**Purpose:** Practical application development, portfolio development, and internship task submission
 
-*Crafted with passion for language learning and modern mobile UI design.*
+This project gave me the opportunity to apply Flutter and Dart concepts in a complete application, with particular attention to interface design, reusable components, local persistence, state management, and interactive learning features.
+
+---
+
+## 👩‍💻 Developer
+
+**Misbah Amjad**  
+Flutter Developer | Mobile App Development
+
+- **GitHub:** [github.com/Misbah-Amjad](https://github.com/Misbah-Amjad)
+- **LinkedIn:** [linkedin.com/in/misbahh-amjad](https://www.linkedin.com/in/misbahh-amjad/)
+
+I enjoy building clean, user-friendly mobile applications and continuously improving my skills in Flutter, Dart, Firebase, and application development.
+
+---
+
+## 🙌 Acknowledgments
+
+- **[CodeAlpha](https://www.codealpha.tech/)** — Internship program and project opportunity.
+- **[Flutter](https://flutter.dev/)** — Cross-platform application development framework.
+- The open-source Flutter ecosystem and package contributors.
+
+---
+
+<div align="center">
+
+**Lingora — Learn new words, build confidence, and make every lesson count.**
+
+*Designed and developed with Flutter and Dart by Misbah Amjad.*
+
+</div>
