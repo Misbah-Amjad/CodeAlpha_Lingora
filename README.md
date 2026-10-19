@@ -142,6 +142,44 @@ lib/
 
 ---
 
+## 📱 App Screenshots
+
+Take a look at **Lingora**, a modern Flutter language-learning app designed to make vocabulary building, lessons, and interactive practice more engaging.
+
+### 🚀 Launch & Getting Started
+
+| Launch Screen | Splash Screen | Choose Target Language |
+|---|---|---|
+| ![Launch Screen](screenshots/launch%20screen.jpeg) | ![Splash Screen](screenshots/splash%20screen.jpeg) | ![Choose Target Language](screenshots/choose%20target%20language%20screen.jpeg) |
+
+### 🏠 Home & Navigation
+
+| Home Screen | App Drawer |
+|---|---|
+| ![Home Screen](screenshots/home%20screen.jpeg) | ![App Drawer](screenshots/app%20drawer.jpeg) |
+
+### 📚 Vocabulary & Learning
+
+| Vocab Screen | Add Vocab Screen | Saved Vocab |
+|---|---|---|
+| ![Vocab Screen](screenshots/vocab%20screen.jpeg) | ![Add Vocab Screen](screenshots/Add%20vocab%20sreen.jpeg) | ![Saved Vocab Screen](screenshots/saved%20vocab%20screen.jpeg) |
+
+### 🃏 Flashcards & Lessons
+
+| Flashcard Screen | Lesson Screen | Quiz Screen |
+|---|---|---|
+| ![Flashcard Screen](screenshots/flashcard%20sceen.jpeg) | ![Lesson Screen](screenshots/Lesson%20screen.jpeg) | ![Quiz Screen](screenshots/quizz%20screen.jpeg) |
+
+### 📊 Analytics & Personalization
+
+| Learning Analytics | Profile Screen | Settings Screen |
+|---|---|---|
+| ![Learning Analytics](screenshots/learning%20analytics%20screen.jpeg) | ![Profile Screen](screenshots/profile%20screen.jpeg) | ![Settings Screen](screenshots/settings%20screen.jpeg) |
+
+---
+
+*Lingora — Learn new words, build confidence, and make every lesson count.*
+
 ## 🚀 Getting Started & Installation
 
 ### Prerequisites
